@@ -1,0 +1,58 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HookedAlumniSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AdSupport
+import Alamofire
+import AuthenticationServices
+import CryptoSwift
+import Foundation
+import KeychainSwift
+import SafariServices
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import dsBridge
+@objc @_inheritsConvenienceInitializers public class HA : ObjectiveC.NSObject {
+  public static let shareInstance: HookedAlumniSDK.HA
+  public func setSdkOption(sdkOption: HookedAlumniSDK.HASdkOption)
+  public func logIn()
+  public func saveToken(token: Swift.String)
+  public func addLoginListener(loginSuccessBlock: @escaping ([Swift.String : Any]) -> Swift.Void, loginErrorBlock: @escaping (any Swift.Error) -> Swift.Void, logoutBlock: @escaping () -> ())
+  public func goLanding(url: Swift.String, navController: UIKit.UINavigationController)
+  public func goWallet(navController: UIKit.UINavigationController)
+  public func openUrl(url: Swift.String, navController: UIKit.UINavigationController)
+  @objc override dynamic public init()
+  @objc deinit
+}
+public enum HAEnvironment {
+  case TEST_NET
+  case MAIN_NET
+  public static func == (a: HookedAlumniSDK.HAEnvironment, b: HookedAlumniSDK.HAEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum HASdkError : Swift.Error {
+  case noBundleIdentifierFound
+  case userNotLogin
+  case userCancelled(msg: Swift.String?)
+  case appCancelled
+  case invalidFromAddress
+  case invalidTransaction
+  case unknownError
+  case runtimeError(msg: Swift.String)
+  case decodingError
+  case encodingError
+  case noRedirectURL
+}
+@objc @_inheritsConvenienceInitializers public class HASdkOption : ObjectiveC.NSObject {
+  public var enivorment: HookedAlumniSDK.HAEnvironment
+  public var client_id: Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension HookedAlumniSDK.HAEnvironment : Swift.Equatable {}
+extension HookedAlumniSDK.HAEnvironment : Swift.Hashable {}

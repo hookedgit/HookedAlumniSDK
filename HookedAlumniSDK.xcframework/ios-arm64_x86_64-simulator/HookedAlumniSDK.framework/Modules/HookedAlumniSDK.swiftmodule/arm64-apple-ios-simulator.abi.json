@@ -1,0 +1,3524 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HA",
+        "printedName": "HA",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shareInstance",
+            "printedName": "shareInstance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HA",
+                "printedName": "HookedAlumniSDK.HA",
+                "usr": "c:@M@HookedAlumniSDK@objc(cs)HA"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15HookedAlumniSDK2HAC13shareInstanceACvpZ",
+            "mangledName": "$s15HookedAlumniSDK2HAC13shareInstanceACvpZ",
+            "moduleName": "HookedAlumniSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HA",
+                    "printedName": "HookedAlumniSDK.HA",
+                    "usr": "c:@M@HookedAlumniSDK@objc(cs)HA"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15HookedAlumniSDK2HAC13shareInstanceACvgZ",
+                "mangledName": "$s15HookedAlumniSDK2HAC13shareInstanceACvgZ",
+                "moduleName": "HookedAlumniSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setSdkOption",
+            "printedName": "setSdkOption(sdkOption:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HASdkOption",
+                "printedName": "HookedAlumniSDK.HASdkOption",
+                "usr": "c:@M@HookedAlumniSDK@objc(cs)HASdkOption"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK2HAC12setSdkOption03sdkG0yAA05HASdkG0C_tF",
+            "mangledName": "$s15HookedAlumniSDK2HAC12setSdkOption03sdkG0yAA05HASdkG0C_tF",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logIn",
+            "printedName": "logIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK2HAC5logInyyF",
+            "mangledName": "$s15HookedAlumniSDK2HAC5logInyyF",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveToken",
+            "printedName": "saveToken(token:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK2HAC9saveToken5tokenySS_tF",
+            "mangledName": "$s15HookedAlumniSDK2HAC9saveToken5tokenySS_tF",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addLoginListener",
+            "printedName": "addLoginListener(loginSuccessBlock:loginErrorBlock:logoutBlock:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.String : Any]) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK2HAC16addLoginListener17loginSuccessBlock0h5ErrorJ006logoutJ0yySDySSypGc_ys0K0_pcyyctF",
+            "mangledName": "$s15HookedAlumniSDK2HAC16addLoginListener17loginSuccessBlock0h5ErrorJ006logoutJ0yySDySSypGc_ys0K0_pcyyctF",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "goLanding",
+            "printedName": "goLanding(url:navController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK2HAC9goLanding3url13navControllerySS_So012UINavigationI0CtF",
+            "mangledName": "$s15HookedAlumniSDK2HAC9goLanding3url13navControllerySS_So012UINavigationI0CtF",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "goWallet",
+            "printedName": "goWallet(navController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK2HAC8goWallet13navControllerySo012UINavigationH0C_tF",
+            "mangledName": "$s15HookedAlumniSDK2HAC8goWallet13navControllerySo012UINavigationH0C_tF",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openUrl",
+            "printedName": "openUrl(url:navController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UINavigationController",
+                "printedName": "UIKit.UINavigationController",
+                "usr": "c:objc(cs)UINavigationController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK2HAC7openUrl3url13navControllerySS_So012UINavigationI0CtF",
+            "mangledName": "$s15HookedAlumniSDK2HAC7openUrl3url13navControllerySS_So012UINavigationI0CtF",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HA",
+                "printedName": "HookedAlumniSDK.HA",
+                "usr": "c:@M@HookedAlumniSDK@objc(cs)HA"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HookedAlumniSDK@objc(cs)HA(im)init",
+            "mangledName": "$s15HookedAlumniSDK2HACACycfc",
+            "moduleName": "HookedAlumniSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HookedAlumniSDK@objc(cs)HA",
+        "mangledName": "$s15HookedAlumniSDK2HAC",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HAEnvironment",
+        "printedName": "HAEnvironment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "TEST_NET",
+            "printedName": "TEST_NET",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HAEnvironment.Type) -> HookedAlumniSDK.HAEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HAEnvironment",
+                    "printedName": "HookedAlumniSDK.HAEnvironment",
+                    "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HAEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HAEnvironment",
+                        "printedName": "HookedAlumniSDK.HAEnvironment",
+                        "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK13HAEnvironmentO8TEST_NETyA2CmF",
+            "mangledName": "$s15HookedAlumniSDK13HAEnvironmentO8TEST_NETyA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "MAIN_NET",
+            "printedName": "MAIN_NET",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HAEnvironment.Type) -> HookedAlumniSDK.HAEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HAEnvironment",
+                    "printedName": "HookedAlumniSDK.HAEnvironment",
+                    "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HAEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HAEnvironment",
+                        "printedName": "HookedAlumniSDK.HAEnvironment",
+                        "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK13HAEnvironmentO8MAIN_NETyA2CmF",
+            "mangledName": "$s15HookedAlumniSDK13HAEnvironmentO8MAIN_NETyA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HAEnvironment",
+                "printedName": "HookedAlumniSDK.HAEnvironment",
+                "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HAEnvironment",
+                "printedName": "HookedAlumniSDK.HAEnvironment",
+                "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK13HAEnvironmentO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s15HookedAlumniSDK13HAEnvironmentO2eeoiySbAC_ACtFZ",
+            "moduleName": "HookedAlumniSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15HookedAlumniSDK13HAEnvironmentO9hashValueSivp",
+            "mangledName": "$s15HookedAlumniSDK13HAEnvironmentO9hashValueSivp",
+            "moduleName": "HookedAlumniSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15HookedAlumniSDK13HAEnvironmentO9hashValueSivg",
+                "mangledName": "$s15HookedAlumniSDK13HAEnvironmentO9hashValueSivg",
+                "moduleName": "HookedAlumniSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15HookedAlumniSDK13HAEnvironmentO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s15HookedAlumniSDK13HAEnvironmentO4hash4intoys6HasherVz_tF",
+            "moduleName": "HookedAlumniSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15HookedAlumniSDK13HAEnvironmentO",
+        "mangledName": "$s15HookedAlumniSDK13HAEnvironmentO",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HASdkError",
+        "printedName": "HASdkError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noBundleIdentifierFound",
+            "printedName": "noBundleIdentifierFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO23noBundleIdentifierFoundyA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO23noBundleIdentifierFoundyA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "userNotLogin",
+            "printedName": "userNotLogin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO12userNotLoginyA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO12userNotLoginyA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "userCancelled",
+            "printedName": "userCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> (Swift.String?) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> HookedAlumniSDK.HASdkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(msg: Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO13userCancelledyACSSSg_tcACmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO13userCancelledyACSSSg_tcACmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "appCancelled",
+            "printedName": "appCancelled",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO12appCancelledyA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO12appCancelledyA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidFromAddress",
+            "printedName": "invalidFromAddress",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO18invalidFromAddressyA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO18invalidFromAddressyA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidTransaction",
+            "printedName": "invalidTransaction",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO18invalidTransactionyA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO18invalidTransactionyA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO07unknownE0yA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO07unknownE0yA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "runtimeError",
+            "printedName": "runtimeError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> (Swift.String) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> HookedAlumniSDK.HASdkError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(msg: Swift.String)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO07runtimeE0yACSS_tcACmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO07runtimeE0yACSS_tcACmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "decodingError",
+            "printedName": "decodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO08decodingE0yA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO08decodingE0yA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "encodingError",
+            "printedName": "encodingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO08encodingE0yA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO08encodingE0yA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "noRedirectURL",
+            "printedName": "noRedirectURL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(HookedAlumniSDK.HASdkError.Type) -> HookedAlumniSDK.HASdkError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HASdkError",
+                    "printedName": "HookedAlumniSDK.HASdkError",
+                    "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "HookedAlumniSDK.HASdkError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HASdkError",
+                        "printedName": "HookedAlumniSDK.HASdkError",
+                        "usr": "s:15HookedAlumniSDK10HASdkErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:15HookedAlumniSDK10HASdkErrorO13noRedirectURLyA2CmF",
+            "mangledName": "$s15HookedAlumniSDK10HASdkErrorO13noRedirectURLyA2CmF",
+            "moduleName": "HookedAlumniSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:15HookedAlumniSDK10HASdkErrorO",
+        "mangledName": "$s15HookedAlumniSDK10HASdkErrorO",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HASdkOption",
+        "printedName": "HASdkOption",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "enivorment",
+            "printedName": "enivorment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HAEnvironment",
+                "printedName": "HookedAlumniSDK.HAEnvironment",
+                "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15HookedAlumniSDK11HASdkOptionC10enivormentAA13HAEnvironmentOvp",
+            "mangledName": "$s15HookedAlumniSDK11HASdkOptionC10enivormentAA13HAEnvironmentOvp",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HAEnvironment",
+                    "printedName": "HookedAlumniSDK.HAEnvironment",
+                    "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15HookedAlumniSDK11HASdkOptionC10enivormentAA13HAEnvironmentOvg",
+                "mangledName": "$s15HookedAlumniSDK11HASdkOptionC10enivormentAA13HAEnvironmentOvg",
+                "moduleName": "HookedAlumniSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HAEnvironment",
+                    "printedName": "HookedAlumniSDK.HAEnvironment",
+                    "usr": "s:15HookedAlumniSDK13HAEnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15HookedAlumniSDK11HASdkOptionC10enivormentAA13HAEnvironmentOvs",
+                "mangledName": "$s15HookedAlumniSDK11HASdkOptionC10enivormentAA13HAEnvironmentOvs",
+                "moduleName": "HookedAlumniSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15HookedAlumniSDK11HASdkOptionC10enivormentAA13HAEnvironmentOvM",
+                "mangledName": "$s15HookedAlumniSDK11HASdkOptionC10enivormentAA13HAEnvironmentOvM",
+                "moduleName": "HookedAlumniSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "client_id",
+            "printedName": "client_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15HookedAlumniSDK11HASdkOptionC9client_idSSSgvp",
+            "mangledName": "$s15HookedAlumniSDK11HASdkOptionC9client_idSSSgvp",
+            "moduleName": "HookedAlumniSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15HookedAlumniSDK11HASdkOptionC9client_idSSSgvg",
+                "mangledName": "$s15HookedAlumniSDK11HASdkOptionC9client_idSSSgvg",
+                "moduleName": "HookedAlumniSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15HookedAlumniSDK11HASdkOptionC9client_idSSSgvs",
+                "mangledName": "$s15HookedAlumniSDK11HASdkOptionC9client_idSSSgvs",
+                "moduleName": "HookedAlumniSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15HookedAlumniSDK11HASdkOptionC9client_idSSSgvM",
+                "mangledName": "$s15HookedAlumniSDK11HASdkOptionC9client_idSSSgvM",
+                "moduleName": "HookedAlumniSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HASdkOption",
+                "printedName": "HookedAlumniSDK.HASdkOption",
+                "usr": "c:@M@HookedAlumniSDK@objc(cs)HASdkOption"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HookedAlumniSDK@objc(cs)HASdkOption(im)init",
+            "mangledName": "$s15HookedAlumniSDK11HASdkOptionCACycfc",
+            "moduleName": "HookedAlumniSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HookedAlumniSDK@objc(cs)HASdkOption",
+        "mangledName": "$s15HookedAlumniSDK11HASdkOptionC",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AdSupport",
+        "printedName": "AdSupport",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "dsBridge",
+        "printedName": "dsBridge",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoSwift",
+        "printedName": "CryptoSwift",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "KeychainSwift",
+        "printedName": "KeychainSwift",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HookedAlumniSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/KeyUtils.swift",
+      "kind": "Array",
+      "offset": 142,
+      "length": 27,
+      "value": "[1602, 54116, 10047, 35372]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/KeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/KeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/KeyUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/KeyUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 357,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 411,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 10,
+      "value": "\"deviceId\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 764,
+      "length": 9,
+      "value": "\"version\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 803,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 859,
+      "length": 11,
+      "value": "\"client_id\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 11,
+      "value": "\"androidId\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1079,
+      "length": 5,
+      "value": "\"app\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 17,
+      "value": "\"HookedAlumniSdk\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1127,
+      "length": 4,
+      "value": "\"di\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1161,
+      "length": 4,
+      "value": "\"pf\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1166,
+      "length": 3,
+      "value": "\"3\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1194,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1262,
+      "length": 14,
+      "value": "\"mobile_brand\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1277,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1309,
+      "length": 14,
+      "value": "\"mobile_model\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 5,
+      "value": "\"dtu\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1377,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1407,
+      "length": 13,
+      "value": "\"sysLanguage\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1462,
+      "length": 13,
+      "value": "\"versionName\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1596,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1620,
+      "length": 9,
+      "value": "\"sdk_100\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1689,
+      "length": 5,
+      "value": "\"cmd\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1700,
+      "length": 9,
+      "value": "\"eventId\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1718,
+      "length": 14,
+      "value": "\"event_params\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1954,
+      "length": 12,
+      "value": "\"appVersion\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2022,
+      "length": 16,
+      "value": "\"appVersionName\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2427,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2465,
+      "length": 18,
+      "value": "\"event successful\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2554,
+      "length": 41,
+      "value": "\"send error\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2594,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkBaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1376,
+      "length": 5,
+      "value": "\"UTC\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkBaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2191,
+      "length": 9,
+      "value": "\"sdk_102\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkBaseManager.swift",
+      "kind": "Dictionary",
+      "offset": 2215,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 13,
+      "value": "\"versionCode\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 366,
+      "length": 13,
+      "value": "\"versionName\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 423,
+      "length": 11,
+      "value": "\"packageId\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 16,
+      "value": "\"sdkVersionCode\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 16,
+      "value": "\"sdkVersionName\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 11,
+      "value": "\"osVersion\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 811,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 862,
+      "length": 7,
+      "value": "\"brand\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 870,
+      "length": 7,
+      "value": "\"Apple\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 10,
+      "value": "\"deviceId\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 1109,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 1154,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 1395,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 1488,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "Dictionary",
+      "offset": 1516,
+      "length": 23,
+      "value": "[(\"code\", \"0\"), (\"msg\", \"ok\")]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 1825,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "Dictionary",
+      "offset": 1942,
+      "length": 23,
+      "value": "[(\"code\", \"0\"), (\"msg\", \"ok\")]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "Dictionary",
+      "offset": 2202,
+      "length": 23,
+      "value": "[(\"code\", \"0\"), (\"msg\", \"ok\")]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "Dictionary",
+      "offset": 2392,
+      "length": 23,
+      "value": "[(\"code\", \"0\"), (\"msg\", \"ok\")]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "Dictionary",
+      "offset": 2582,
+      "length": 23,
+      "value": "[(\"code\", \"0\"), (\"msg\", \"ok\")]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "Dictionary",
+      "offset": 2903,
+      "length": 23,
+      "value": "[(\"code\", \"0\"), (\"msg\", \"ok\")]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 3065,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "Dictionary",
+      "offset": 3098,
+      "length": 23,
+      "value": "[(\"code\", \"0\"), (\"msg\", \"ok\")]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 3406,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 3432,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 3440,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 3444,
+      "length": 5,
+      "value": "\"msg\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3535,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "StringLiteral",
+      "offset": 3586,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/JsApiSwift.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3589,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkOption.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 9,
+      "value": "\"connect\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkOption.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 8,
+      "value": "\"logout\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkOption.swift",
+      "kind": "StringLiteral",
+      "offset": 846,
+      "length": 9,
+      "value": "\"connect\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkOption.swift",
+      "kind": "StringLiteral",
+      "offset": 874,
+      "length": 8,
+      "value": "\"logout\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 37,
+      "value": "\"https:\/\/dev-alumni-auth.wcash.wiki\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 37,
+      "value": "\"https:\/\/test-auth.hookedalumni.xyz\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 36,
+      "value": "\"https:\/\/pre-auth.hookedalumni.xyz\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 25,
+      "value": "\"https:\/\/auth.hooked.io\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 402,
+      "length": 39,
+      "value": "\"https:\/\/dev-alumni-wallet.wcash.wiki\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 465,
+      "length": 39,
+      "value": "\"https:\/\/test-wallet.hookedalumni.xyz\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 38,
+      "value": "\"https:\/\/pre-wallet.hookedalumni.xyz\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 27,
+      "value": "\"https:\/\/wallet.hooked.io\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 638,
+      "length": 36,
+      "value": "\"https:\/\/dev-alumni-api.wcash.wiki\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 36,
+      "value": "\"https:\/\/test-api.hookedalumni.xyz\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 754,
+      "length": 35,
+      "value": "\"https:\/\/pre-api.hookedalumni.xyz\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 811,
+      "length": 31,
+      "value": "\"https:\/\/api.wallet.hooked.io\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2650,
+      "length": 23,
+      "value": "\"auth\/login\/index.html\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2729,
+      "length": 25,
+      "value": "\"wallet\/index\/index.html\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2811,
+      "length": 25,
+      "value": "\"auth\/landing\/index.html\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2909,
+      "length": 23,
+      "value": "\"hooked-ucs\/user\/v\/get\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 27,
+      "value": "\"protocol-event\/event\/send\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkBaseAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 3124,
+      "length": 27,
+      "value": "\"hooked-auth\/user\/getToken\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 229,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 251,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 293,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 538,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 672,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 696,
+      "length": 4,
+      "value": "1110"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 724,
+      "length": 7,
+      "value": "\"1.1.1\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 19,
+      "value": "\"estimatedProgress\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 21,
+      "value": "\"iOS-HookedAlumniSdk\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 642,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 648,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 12,
+      "value": "\"alertTitle\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 945,
+      "length": 14,
+      "value": "\"Notification\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 961,
+      "length": 10,
+      "value": "\"alertBtn\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 973,
+      "length": 4,
+      "value": "\"OK\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1236,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1260,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1996,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2043,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2107,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2371,
+      "length": 22,
+      "value": "\"native.viewDidActive\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2548,
+      "length": 21,
+      "value": "\"native.viewDidPause\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2792,
+      "length": 10,
+      "value": "\"HABridge\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 2992,
+      "length": 39,
+      "value": "\"init(coder:) has not been implemented\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3742,
+      "length": 59,
+      "value": "\"document.documentElement.style.webkitTouchCallout='none';\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3862,
+      "length": 57,
+      "value": "\"document.documentElement.style.webkitUserSelect='none';\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 3978,
+      "length": 242,
+      "value": "\"var script = document.createElement('meta');\nscript.name = 'viewport';\nscript.content=\"width=device-width, user-scalable=no\";\ndocument.getElementsByTagName('head')[0].appendChild(script);\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 184,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 9,
+      "value": "\"sdk_100\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 366,
+      "length": 6,
+      "value": "999999"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 492,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "StringLiteral",
+      "offset": 558,
+      "length": 5,
+      "value": "\"cid\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "StringLiteral",
+      "offset": 594,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 741,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1019,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1379,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1420,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkRequestManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1855,
+      "length": 8,
+      "value": "\"userId\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 260,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 603,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 757,
+      "length": 11,
+      "value": "\"client_id\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 15,
+      "value": "\"response_type\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 825,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 8,
+      "value": "\"in_app\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 861,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1143,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1328,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1432,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1529,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "Array",
+      "offset": 1703,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1839,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1888,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1896,
+      "length": 11,
+      "value": "\"client_id\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1950,
+      "length": 11,
+      "value": "\"client_id\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2160,
+      "length": 9,
+      "value": "\"sdk_101\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "Dictionary",
+      "offset": 2184,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2833,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3102,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3154,
+      "length": 35,
+      "value": "\"UIWindowScene foregroundActive = \""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3233,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3302,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3673,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4305,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4419,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4445,
+      "length": 3,
+      "value": "\"?\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4735,
+      "length": 36,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4747,
+      "length": 1,
+      "value": "\":\/\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4770,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4896,
+      "length": 16,
+      "value": "\"&redirect_uri=\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5217,
+      "length": 11,
+      "value": "\"authError\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5274,
+      "length": 13,
+      "value": "\"callbackURL\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 25,
+      "value": "\"!*'\"();:@&=+$,\/?%#[]% \""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1080,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1354,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1616,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1812,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2007,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2018,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2083,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2117,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2122,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2164,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2435,
+      "length": 3,
+      "value": "\"+\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2446,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2511,
+      "length": 3,
+      "value": "\"_\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2565,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 2576,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkKeyChainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 349,
+      "length": 20,
+      "value": "\"HASdkKeyChainSwift\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkKeyChainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 452,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkKeyChainManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 485,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkKeyChainManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 506,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkKeyChainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 608,
+      "length": 11,
+      "value": "\"HASdkuuid\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkKeyChainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 691,
+      "length": 11,
+      "value": "\"HASdkuuid\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkKeyChainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 764,
+      "length": 11,
+      "value": "\"HASdkuuid\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkTimeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 218,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkTimeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 258,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkTimeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkTimeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 569,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkTimeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 778,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkTimeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 943,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkTimeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1123,
+      "length": 5,
+      "value": "-1000"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkTimeManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1858,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 531,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "Dictionary",
+      "offset": 775,
+      "length": 77,
+      "value": "[(\"Content-type\", \"application\/json;charset=utf-8\"), (\"Accept\", \"application\/json\")]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1070,
+      "length": 4,
+      "value": "\"di\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1131,
+      "length": 10,
+      "value": "\"deviceId\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 4,
+      "value": "\"ht\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1540,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1843,
+      "length": 6,
+      "value": "\"h_ts\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2170,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2610,
+      "length": 3,
+      "value": "\"{\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2632,
+      "length": 3,
+      "value": "\"[\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3165,
+      "length": 13,
+      "value": "\"currentTime\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkStorageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 119,
+      "length": 9,
+      "value": "\"HASdkHt\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkStorageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 13,
+      "value": "\"userInfoKey\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkStorageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 16,
+      "value": "\"hasdkLoginTime\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkStorageManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkStorageManager.swift",
+      "kind": "Dictionary",
+      "offset": 917,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkStorageManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkNoticeName.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 18,
+      "value": "\"HASDKLOGNSUCCESS\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkNoticeName.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 18,
+      "value": "\"HASDKLOGINFAILED\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkNoticeName.swift",
+      "kind": "StringLiteral",
+      "offset": 362,
+      "length": 13,
+      "value": "\"HASDKLOGOUT\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkNoticeName.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 15,
+      "value": "\"reloadWebView\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkNoticeName.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 14,
+      "value": "\"closeWebView\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 9,
+      "value": "\"sdk_103\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 931,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 27,
+      "value": "\"reloadView ---->>> \""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1103,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1180,
+      "length": 36,
+      "value": "\"reloadView reloadUrl---->>> \""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1401,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 374,
+      "length": 64,
+      "value": "\"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 470,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 474,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 652,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 835,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 899,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1114,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1326,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "Dictionary",
+      "offset": 1522,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1649,
+      "length": 11,
+      "value": "\"url error\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1855,
+      "length": 6,
+      "value": "\"http\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "Array",
+      "offset": 2066,
+      "length": 206,
+      "value": "[\"dev-alumni-auth.wcash.wiki\", \"test-auth.hookedalumni.xyz\", \"pre-auth.hookedalumni.xyz\", \"auth.hookedalumni.xyz\", \"dev-alumni-wallet.wcash.wiki\", \"\"]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2386,
+      "length": 33,
+      "value": "\"^(https?:\/\/)?(www\\.)?\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2418,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "Array",
+      "offset": 2506,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2535,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2627,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2660,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+framework module HookedAlumniSDK {
+  header "HookedAlumniSDK-Swift.h"
+  requires objc
+}
