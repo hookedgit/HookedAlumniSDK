@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HookedAlumniSDK"
-  s.version      = "1.1.1"
+  s.version      = "1.1.2"
   s.summary      = "The official HookedAlumni SDK for iOS, used to access the features of the HookedAlumni."
   s.description  = <<-DESC
            The HookedAlumni SDK provides a simple and efficient way to log in to HookedAlumni and access the full capabilities of the HookedAlumni.

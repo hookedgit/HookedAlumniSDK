@@ -2433,14 +2433,14 @@
       "kind": "IntegerLiteral",
       "offset": 696,
       "length": 4,
-      "value": "1110"
+      "value": "1120"
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
       "kind": "StringLiteral",
       "offset": 724,
       "length": 7,
-      "value": "\"1.1.1\""
+      "value": "\"1.1.2\""
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
