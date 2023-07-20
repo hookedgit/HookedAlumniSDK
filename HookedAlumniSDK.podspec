@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   s.source        = { :git => 'https://github.com/hookedgit/HookedAlumniSDK.git', :tag => s.version }
+  s.source_files  = 'HookedAlumniSDK.xcframework/**/*'
   s.ios.vendored_frameworks = 'HookedAlumniSDK.xcframework'
   s.dependency 'Alamofire','5.7.1'
   s.dependency 'HandyJSON','5.0.2'
