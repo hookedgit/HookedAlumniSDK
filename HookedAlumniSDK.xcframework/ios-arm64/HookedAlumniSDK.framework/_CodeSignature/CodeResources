@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		OezxvFKjhZJ/nRd13O2M+3jWzV4=
+		ajRgjro4Gj1nSeFIAWtX/f5hpsU=
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EQHsBR9Yttzad80Ul6WrfOZ6ekY=
+		JCBT3TzIZYisv3tebbOZNrWOCnM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OezxvFKjhZJ/nRd13O2M+3jWzV4=
+			ajRgjro4Gj1nSeFIAWtX/f5hpsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			IRR8R4GFlTmVKtgQpHqIWwwmS9h6V1IQhQ8RUIQ1sl4=
+			a9Y32NyD9HRgTul75fHb92Cs1UwNrxGR1PtNEhEbFEI=
 			</data>
 		</dict>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -98,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EQHsBR9Yttzad80Ul6WrfOZ6ekY=
+			JCBT3TzIZYisv3tebbOZNrWOCnM=
 			</data>
 			<key>hash2</key>
 			<data>
-			4CgsXakwJ7G7+X+iUSirZhhbNGYf1iAnf3K9JksOyRU=
+			3qO+BJEthXAdvZUr5q6aVZFt9Dy1RZCFyLV9uUt6g9Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

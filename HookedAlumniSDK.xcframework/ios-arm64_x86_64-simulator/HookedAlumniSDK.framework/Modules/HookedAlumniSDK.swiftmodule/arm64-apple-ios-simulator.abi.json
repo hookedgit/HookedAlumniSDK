@@ -1946,44 +1946,30 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
+      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkBaseManager.swift",
       "kind": "StringLiteral",
-      "offset": 2465,
-      "length": 18,
-      "value": "\"event successful\""
-    },
-    {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2554,
-      "length": 41,
-      "value": "\"send error\""
-    },
-    {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkEventSendManager.swift",
-      "kind": "StringLiteral",
-      "offset": 2594,
-      "length": 2,
-      "value": "\"\""
+      "offset": 1031,
+      "length": 36,
+      "value": "\"---->>>> Initialization successful\""
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkBaseManager.swift",
       "kind": "StringLiteral",
-      "offset": 1376,
+      "offset": 1428,
       "length": 5,
       "value": "\"UTC\""
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkBaseManager.swift",
       "kind": "StringLiteral",
-      "offset": 2191,
+      "offset": 2243,
       "length": 9,
       "value": "\"sdk_102\""
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkBaseManager.swift",
       "kind": "Dictionary",
-      "offset": 2215,
+      "offset": 2267,
       "length": 3,
       "value": "[]"
     },
@@ -2433,14 +2419,14 @@
       "kind": "IntegerLiteral",
       "offset": 696,
       "length": 4,
-      "value": "1120"
+      "value": "1130"
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
       "kind": "StringLiteral",
       "offset": 724,
       "length": 7,
-      "value": "\"1.1.2\""
+      "value": "\"1.1.3\""
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkAppUtils.swift",
@@ -2919,20 +2905,6 @@
       "value": "\"&redirect_uri=\""
     },
     {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5217,
-      "length": 11,
-      "value": "\"authError\""
-    },
-    {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Login\/HASdkLoginManager.swift",
-      "kind": "StringLiteral",
-      "offset": 5274,
-      "length": 13,
-      "value": "\"callbackURL\""
-    },
-    {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Utils\/HASdkExtension.swift",
       "kind": "StringLiteral",
       "offset": 599,
@@ -3354,36 +3326,8 @@
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1077,
-      "length": 27,
-      "value": "\"reloadView ---->>> \""
-    },
-    {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1103,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1180,
-      "length": 36,
-      "value": "\"reloadView reloadUrl---->>> \""
-    },
-    {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1215,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/Web\/HASdkWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1401,
+      "offset": 1298,
       "length": 4,
       "value": "true"
     },
