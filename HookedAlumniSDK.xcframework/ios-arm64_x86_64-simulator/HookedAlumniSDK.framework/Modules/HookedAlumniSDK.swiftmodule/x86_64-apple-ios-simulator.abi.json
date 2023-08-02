@@ -3201,21 +3201,21 @@
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
       "kind": "StringLiteral",
-      "offset": 2610,
+      "offset": 2582,
       "length": 3,
       "value": "\"{\""
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
       "kind": "StringLiteral",
-      "offset": 2632,
+      "offset": 2604,
       "length": 3,
       "value": "\"[\""
     },
     {
       "filePath": "\/Users\/redley\/Documents\/hooked\/workspace\/ios\/HASDKDemo\/HASDKDemo\/HookedAlumniSDK\/Classes\/NetWork\/HASdkNetManager.swift",
       "kind": "StringLiteral",
-      "offset": 3165,
+      "offset": 3137,
       "length": 13,
       "value": "\"currentTime\""
     },

@@ -11,9 +11,8 @@ Pod::Spec.new do |s|
   s.author           = { "hookedgit" => "github@hooked.team" } 
   s.ios.deployment_target = '12.0'
 
-  s.source        = { :git => 'https://github.com/hookedgit/HookedAlumniSDK.git', :tag => s.version }
-  s.ios.vendored_frameworks = 'HookedAlumniSDK.xcframework'
-  s.dependency 'Alamofire','5.7.1'
+  s.source        = { :git => 'https://github.com/hookedgit/HookedAlumniSDK.git', :tag => 'joylada_v'+s.version.to_s }
+  s.dependency 'Alamofire','4.9.1'
   s.dependency 'HandyJSON','5.0.2'
   s.dependency 'dsBridge','3.0.6'
   s.dependency 'KeychainSwift','20.0.0'

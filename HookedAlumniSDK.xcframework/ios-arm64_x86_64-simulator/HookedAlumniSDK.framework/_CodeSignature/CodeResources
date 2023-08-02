@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ajRgjro4Gj1nSeFIAWtX/f5hpsU=
+		kuTHjvprgKz/qYdcJ6LJv4m0qLs=
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		OXKJJNihpc8ujK3RYk2Px+dGIag=
+		8fx7afLZXfZkQ8R2h3lhjTWwLu0=
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ajRgjro4Gj1nSeFIAWtX/f5hpsU=
+		kuTHjvprgKz/qYdcJ6LJv4m0qLs=
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9vtbSAqQnxqsBaCnL/zWFYzi8Z0=
+		MgGYOCGNf/AGVRWi69AoXJhTy4w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,11 +74,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ajRgjro4Gj1nSeFIAWtX/f5hpsU=
+			kuTHjvprgKz/qYdcJ6LJv4m0qLs=
 			</data>
 			<key>hash2</key>
 			<data>
-			a9Y32NyD9HRgTul75fHb92Cs1UwNrxGR1PtNEhEbFEI=
+			NKY36IcKKGAIt5cYFmrM9IDdkvFv+EWhGUhTYz0+//U=
 			</data>
 		</dict>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,22 +118,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OXKJJNihpc8ujK3RYk2Px+dGIag=
+			8fx7afLZXfZkQ8R2h3lhjTWwLu0=
 			</data>
 			<key>hash2</key>
 			<data>
-			EODM/kRqKRSa3oowMkh+5tymO3Z/TkU8C8oUWjKoQPY=
+			78ivCR5iLnpiDFaIub+KmJHHEvCGXRAZ7NZvyb/1N50=
 			</data>
 		</dict>
 		<key>Modules/HookedAlumniSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ajRgjro4Gj1nSeFIAWtX/f5hpsU=
+			kuTHjvprgKz/qYdcJ6LJv4m0qLs=
 			</data>
 			<key>hash2</key>
 			<data>
-			a9Y32NyD9HRgTul75fHb92Cs1UwNrxGR1PtNEhEbFEI=
+			NKY36IcKKGAIt5cYFmrM9IDdkvFv+EWhGUhTYz0+//U=
 			</data>
 		</dict>
 		<key>Modules/HookedAlumniSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -173,11 +173,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9vtbSAqQnxqsBaCnL/zWFYzi8Z0=
+			MgGYOCGNf/AGVRWi69AoXJhTy4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			xWzMQOvk5zO0S4bXTlaIJbhFeh5JYcc76a4s3qLbw48=
+			k+kovbcxEpK64xJau+0c3MGbRWPFPYBT6XZTUh0cP5c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
