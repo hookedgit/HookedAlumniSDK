@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   s.source        = { :git => 'https://github.com/hookedgit/HookedAlumniSDK.git', :tag => 'joylada_v'+s.version.to_s }
+  s.ios.vendored_frameworks = 'HookedAlumniSDK.xcframework'
   s.dependency 'Alamofire','4.9.1'
   s.dependency 'HandyJSON','5.0.2'
   s.dependency 'dsBridge','3.0.6'
