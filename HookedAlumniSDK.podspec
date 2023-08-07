@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "HookedAlumniSDK"
-  s.version      = "1.2.2"
+  s.version      = "1.2.3"
   s.summary      = "The official HookedAlumni SDK for iOS, used to access the features of the HookedAlumni."
   s.description  = <<-DESC
            The HookedAlumni SDK provides a simple and efficient way to log in to HookedAlumni and access the full capabilities of the HookedAlumni.
@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
 
   s.source        = { :git => 'https://github.com/hookedgit/HookedAlumniSDK.git', :tag => 'joylada_v'+s.version.to_s }
   s.ios.vendored_frameworks = 'HookedAlumniSDK.xcframework'
+  s.xcconfig = { 'OTHER_SWIFT_FLAGS' => '-no-verify-emitted-module-interface' }
   s.dependency 'Alamofire','4.9.1'
   s.dependency 'HandyJSON','5.0.2'
   s.dependency 'dsBridge','3.0.6'

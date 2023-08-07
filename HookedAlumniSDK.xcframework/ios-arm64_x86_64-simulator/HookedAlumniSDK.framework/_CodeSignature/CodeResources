@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		5H18KPtDjhxBx0VjybmPKhjLA0M=
+		WqMhl6546HYCYoqdaLOZSnghuGk=
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		5H18KPtDjhxBx0VjybmPKhjLA0M=
+		WqMhl6546HYCYoqdaLOZSnghuGk=
 		</data>
 		<key>Modules/HookedAlumniSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,11 +74,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5H18KPtDjhxBx0VjybmPKhjLA0M=
+			WqMhl6546HYCYoqdaLOZSnghuGk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0VGoNU+XEb/M4o+MFCjNISevuY4F6BTHXQm/ohuTccM=
+			5YPJ6xfiFB8XtTWh+CjbSIekyzcPoW/W/YYC7m4Rcm8=
 			</data>
 		</dict>
 		<key>Modules/HookedAlumniSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -129,11 +129,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5H18KPtDjhxBx0VjybmPKhjLA0M=
+			WqMhl6546HYCYoqdaLOZSnghuGk=
 			</data>
 			<key>hash2</key>
 			<data>
-			0VGoNU+XEb/M4o+MFCjNISevuY4F6BTHXQm/ohuTccM=
+			5YPJ6xfiFB8XtTWh+CjbSIekyzcPoW/W/YYC7m4Rcm8=
 			</data>
 		</dict>
 		<key>Modules/HookedAlumniSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
